@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Behi5 WEBSITE DESIGN</title>
+	<link rel="stylesheet" type="text/css" href="./CSS/Behi5WebSiteDesignStyle.css">
+
+
+
+
+	<script type="text/javascript">
+		function getObj(fileName){
+			var elementObj=document.getElementById(fileName);
+			return elementObj;
+		}
+	</script>
+
+
+	<!-- *****************  Pull LEAD MANAGEMENT  *************** -->
+
+	<script type="text/javascript">
+		function pullLeadTitle(){
+			getObj('leadManagement_Drag_Circle').classList.toggle('active');
+			getObj('leadManagement_TitleSlide').classList.toggle('active');
+		}
+		function pullCallTitle(){
+			getObj('callManagement_Drag_Circle').classList.toggle('active');
+			getObj('callManagement_TitleSlide').classList.toggle('active');
+		}
+		function pullCaseTitle(){
+			getObj('caseManagement_Drag_Circle').classList.toggle('active');
+			getObj('caseManagement_TitleSlide').classList.toggle('active');
+		}
+		function pullWorkflowTitle(){
+			getObj('workflowManagement_Drag_Circle').classList.toggle('active');
+			getObj('workflowManagement_TitleSlide').classList.toggle('active');
+		}
+	</script>
+
+
+	<!-- ***************** MOBILE MENU OPEN	************ -->
+
+	<script type="text/javascript">
+		function menuOpen(){
+			getObj('logoLabelMob').classList.toggle('active');
+			getObj('menuBar').classList.toggle('active');
+		}
+
+
+
+	</script>
+
+
+
+</head>
+<body>
+	<label class="logoLabelMob" id="logoLabelMob" onclick="menuOpen()"></label>
+	<div class="menuBar" id="menuBar">
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Products</a>
+		<a href="#">Contact</a>
+	</div>
+	<div class = "menu_Container" className = "menu_Container">
+		<div class="menuBar">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Products</a>
+			<a href="#">Contact</a>
+		</div>
+		<div class="navTag" className="navTag">
+			<label class="logoLabel"></label>
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Products</a>
+			<a href="#">Contact</a>
+		</div>
+	</div>
+
+
+	<div class = "header_Container" className = "header_Container">
+		<label class="tagLine" className="tag">A CATALYST FOR BUSINE<span>$$</span></label>
+	</div>
+
+		<!-- LEAD MANAGEMENT -->
+
+	<div class = "leadManagement_Container">
+		<div class="leadManagement_Types" className="leadManagement_Types" id="leadManagement_Types">
+			<div class="microServices">
+				<label class="microServicesLabel">Micro Services</label>
+				<label class="microServicesDesc" id="microServicesDesc">Don’t just manage social, master it.</label>
+				<label class="microServicesPng" id="microServicesPng"></label>
+				<p>Social media publishing, scheduling and reporting tools simplify the hard work of social so you can focus on building insights-driven strategies that elevate your brand.</p>
+				<div class="leadManagementList gmailContainer" id="gmailContainer">
+					<label class="leadImageLabel gmailImage" id="gmailImage" ></label>
+					<label class="leadDescLabel gmailDesc" id="gmailDesc">Gmail Platform</label>
+				</div>
+				<div class="leadManagementList twitterContainer" id="twitterContainer">
+					<label class="leadImageLabel twitterImage" id="twitterImage"></label>
+					<label class="leadDescLabel twitterDesc" id="twitterDesc">Twitter Platform</label>
+				</div>
+				<div class="leadManagementList whatsappContainer" id="whatsappContainer">
+					<label class="leadImageLabel whatsappImage" id="whatsappImage"></label>
+					<label class="leadDescLabel whatsappDesc" id="whatsappDesc">Whatsapp Platform</label>
+				</div>
+				<div class="leadManagementList facebookContainer" id="facebookContainer">
+					<label class="leadImageLabel facebookImage" id="facebookImage"></label>
+					<label class="leadDescLabel facebookDesc" id="facebookDesc">Facebook Platform</label>
+				</div>
+				<div class="leadManagementList linkedinContainer" id="linkedinContainer">
+					<label class="leadImageLabel linkedinImage" id="linkedinImage"></label>
+					<label class="leadDescLabel linkedinDesc" id="linkedinDesc">Linkedin Platform</label>
+				</div>
+			</div>
+		</div>
+		<div class="leadManagement_Image" className="leadManagement_Image"></div>
+		<div class="leadManagement_Drag_Circle" className="leadManagement_Drag_Circle" id="leadManagement_Drag_Circle" onclick="pullLeadTitle()"></div>
+		<div class="leadManagement_TitleSlide" className="leadManagement_TitleSlide" id="leadManagement_TitleSlide">
+			<div class="leadManagementSwing">
+				<label class="leadManagementSwingLabel"><span>Lead</span> Management<br> </label>
+			</div>
+			<label class="leadManagementLabel" className="leadManagementLabel">Lead Management</label>
+			<p> Lead Management is a process where you get all the leads raised by the customer from the different social media platforms.
+				All the social media platforms are integrated to one form which makes sure the delivery response to the customer will be 
+				lightning fast. And also efficient time management.
+			</p>
+			<p> Any leads raised on any social media platform will be oraganized and the lead will be in your hands. The most advanced feature for future with you.</p>
+			<button class="know" className="know">Know More &#8594;</button>
+		</div>
+	</div>
+
+		<!-- CALL MANAGEMENT -->
+
+	<div class = "callManagement_Container" className = "callManagement_Container">
+		<div class="callManagement_Image" className="callManagement_Image"></div>
+		<div class="callManagement_Drag_Circle" className="callManagement_Drag_Circle" id="callManagement_Drag_Circle" onclick="pullCallTitle()"></div>
+		<div class="callManagement_TitleSlide" className="callManagement_TitleSlide" id="callManagement_TitleSlide">
+			<div class="callManagementSwing">
+				<label class="callManagementSwingLabel"><span>Call</span> Management<br></label>
+			</div>
+			<label class="callManagementLabel" className="callManagementLabel">Call Management</label>
+			<p> Lead Management is a process where you get all the leads raised by the customer from the different social media platforms.
+				All the social media platforms are integrated to one form which makes sure the delivery response to the customer will be 
+				lightning fast. And also efficient time management.
+			</p>
+			<p> Any leads raised on any social media platform will be oraganized and the lead will be in your hands. The most advanced feature for future with you.</p>
+			<button class="knowCl" className="knowCl">Know More &#8594;</button>
+		</div>
+
+		<div class="callManagement_Types" className="callManagement_Types" id="callManagement_Types">
+			<div class="callServices">
+				<label class="callServicesLabel">Call Services</label>
+				<label class="callServicesDesc" id="callServicesDesc">Don’t just manage social, master it.</label>
+				<label class="callServicesPng" id="callServicesPng"></label>
+				<p>Deliver the kind of responsive, tailored customer care and support that inspires long-term satisfaction and loyalty.</p>
+				<div class="callManagementList ivrContainer" id="ivrContainer">
+					<label class="callImageLabel ivrImage" id="ivrImage" ></label>
+					<label class="callDescLabel ivrDesc" id="ivrDesc">IVR</label>
+				</div>
+				<div class="callManagementList acrContainer" id="acrContainer">
+					<label class="callImageLabel acrImage" id="acrImage"></label>
+					<label class="callDescLabel acrDesc" id="acrDesc">ACR</label>
+				</div>
+				<div class="callManagementList monitorContainer" id="monitorContainer">
+					<label class="callImageLabel monitorImage" id="monitorImage"></label>
+					<label class="callDescLabel monitorDesc" id="monitorDesc">CALL MONITOR</label>
+				</div>
+				<div class="callManagementList whisperContainer" id="whisperContainer">
+					<label class="callImageLabel whisperImage" id="whisperImage"></label>
+					<label class="callDescLabel whisperDesc" id="whisperDesc">CALL WHISPER</label>
+				</div>
+				<div class="callManagementList barginContainer" id="barginContainer">
+					<label class="callImageLabel barginImage" id="barginImage"></label>
+					<label class="callDescLabel barginDesc" id="barginDesc">CALL BARGIN</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<!-- CASE MANAGEMENT -->
+
+	<div class = "caseManagement_Container" classname = "caseManagement_Container">
+		<div class="caseManagement_Types" className="caseManagement_Types" id="caseManagement_Types">
+			<div class="caseServices">
+				<label class="caseServicesLabel">Case Services</label>
+				<label class="microServicesDesc" id="microServicesDesc">Don’t just manage social, master it.</label>
+				<label class="caseServicesPng" id="caseServicesPng"></label>
+				<p>Spend less time on manual tasks and more time connecting with your audience through authentic and personalized experiences.</p>
+				<div class="caseManagementList ticketingContainer" id="ticketingContainer">
+					<label class="caseImageLabel ticketingImage" id="ticketingImage" ></label>
+					<label class="caseDescLabel ticketingDesc" id="ticketingDesc">Ticketing</label>
+				</div>
+				<div class="caseManagementList helpDeskContainer" id="helpDeskContainer">
+					<label class="caseImageLabel helpDeskImage" id="helpDeskImage"></label>
+					<label class="caseDescLabel helpDeskDesc" id="helpDeskDesc">HelpDesk</label>
+				</div>
+				<div class="caseManagementList evaluationContainer" id="evaluationContainer">
+					<label class="caseImageLabel evaluationImage" id="evaluationImage"></label>
+					<label class="caseDescLabel evaluationDesc" id="evaluationDesc">Evaluation
+					</label>
+				</div>
+				<div class="caseManagementList assesmentContainer" id="assesmentContainer">
+					<label class="caseImageLabel assesmentImage" id="assesmentImage"></label>
+					<label class="caseDescLabel assesmentDesc" id="assesmentDesc">Assesment</label>
+				</div>
+				<div class="caseManagementList serviceRequestContainer" id="serviceRequestContainer">
+					<label class="caseImageLabel serviceRequestImage" id="serviceRequestImage"></label>
+					<label class="caseDescLabel serviceRequestDesc" id="serviceRequestDesc">Service Request</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="caseManagement_Image" className="caseManagement_Image"></div>
+		<div class="caseManagement_Drag_Circle" className="caseManagement_Drag_Circle" id="caseManagement_Drag_Circle" onclick="pullCaseTitle()"></div>
+		<div class="caseManagement_TitleSlide" className="caseManagement_TitleSlide" id="caseManagement_TitleSlide">
+			<div class="caseManagementSwing">
+				<label class="caseManagementSwingLabel"><span>Case</span> Management<br></label>
+			</div>
+			<label class="caseManagementLabel" className="caseManagementLabel">Case Management</label>
+			<p> Lead Management is a process where you get all the leads raised by the customer from the different social media platforms.
+				All the social media platforms are integrated to one form which makes sure the delivery response to the customer will be 
+				lightning fast. And also efficient time management.
+			</p>
+			<p> Any leads raised on any social media platform will be oraganized and the lead will be in your hands. The most advanced feature for future with you.</p>
+			<button class="knowCe" className="knowCe">Know More &#8594;</button>
+		</div>
+	</div>
+
+
+
+		<!--************  WORKFLOW MANAGEMENT *************-->
+
+	<div class = "workflowManagement_Container" className = "workflowManagement_Container">
+		<div class="workflowManagement_Image" className="workflowManagement_Image"></div>
+		<div class="workflowManagement_Drag_Circle" className="workflowManagement_Drag_Circle" id="workflowManagement_Drag_Circle" onclick="pullWorkflowTitle()"></div>
+		<div class="workflowManagement_TitleSlide" className="workflowManagement_TitleSlide" id="workflowManagement_TitleSlide">
+			<div class="workflowManagementSwing">
+				<label class="workflowManagementSwingLabel"><span>Workflow</span> Management<br></label>
+			</div>
+			<label class="workflowManagementLabel" className="workflowManagementLabel">Workflow Management</label>
+			<p> Lead Management is a process where you get all the leads raised by the customer from the different social media platforms.
+				All the social media platforms are integrated to one form which makes sure the delivery response to the customer will be 
+				lightning fast. And also efficient time management.
+			</p>
+			<p> Any leads raised on any social media platform will be oraganized and the lead will be in your hands. The most advanced feature for future with you.</p>
+			<button class="knowWf" className="knowWf">Know More &#8594;</button>
+		</div>
+
+		<div class="workflowManagement_Types" className="workflowManagement_Types" id="workflowManagement_Types">
+			<div class="workflowServices">
+				<label class="workflowServicesLabel">Workflow Services</label>
+				<label class="workflowServicesDesc" id="workflowServicesDesc">Don’t just manage social, master it.</label>
+				<label class="workflowServicesPng" id="workflowServicesPng"></label>
+				<p>Social media publishing, scheduling and reporting tools simplify the hard work of social so you can focus on building insights-driven strategies that elevate your brand.</p>
+				<div class="workflowManagementList formDesgContainer" id="formDesgContainer">
+					<label class="workflowImageLabel formDesgImage" id="formDesgImage" ></label>
+					<label class="workflowDescLabel formDesgDesc" id="formDesgDesc">Form Design</label>
+				</div>
+				<div class="workflowManagementList reportGenContainer" id="reportGenContainer">
+					<label class="workflowImageLabel reportGenImage" id="reportGenImage"></label>
+					<label class="workflowDescLabel reportGenDesc" id="reportGenDesc">Report Generation</label>
+				</div>
+				<div class="workflowManagementList scalabilityContainer" id="scalabilityContainer">
+					<label class="workflowImageLabel scalabilityImage" id="scalabilityImage"></label>
+					<label class="workflowDescLabel scalabilityDesc" id="scalabilityDesc">Scalability</label>
+				</div>
+				<div class="workflowManagementList slaIndicationContainer" id="slaIndicationContainer">
+					<label class="workflowImageLabel slaIndicationImage" id="slaIndicationImage"></label>
+					<label class="workflowDescLabel slaIndicationDesc" id="slaIndicationDesc">SLA Indication</label>
+				</div>
+				<div class="workflowManagementList cloudOmnipresenceContainer" id="cloudOmnipresenceContainer">
+					<label class="workflowImageLabel cloudOmnipresenceImage" id="cloudOmnipresenceImage"></label>
+					<label class="workflowDescLabel cloudOmnipresenceDesc" id="cloudOmnipresenceDesc">Cloud Omnipresence</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER CONTAINER -->
+
+	<div class="footer_Container" className = "footer_Container">
+		<div class="footerLeft" className="footerLeft">
+			<label class="footerNameLabel" className="footerNameLabel">Our Location</label>
+			<p>adress #222 , no: 222, area,<br> city pincode<br> state</p>
+		</div>
+			<p>Get in touch</p>
+			<div class="footerSocialMediaContainer">
+				<a href="#" class="facebook" className="facebook"></a>
+				<a href="#" class="twitter" className="twitter"></a>
+				<a href="#" class="gmail" className="gmail"></a>
+				<a href="#" class="linkedin" className="linkedin"></a>
+			</div>
+		<div class="footerRight" className="footerRight">
+			<button>CONTACT US</button>
+		</div>
+		<div class="copyrights" className="copyrights">&copy;	Sarvajeyam Solutoins</div>
+	</div>
+</body>
+</html>
